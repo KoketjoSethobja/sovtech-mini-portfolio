@@ -25,8 +25,16 @@ const Home = () => {
                         </p>
                     </div>
                     <div className="why-sovtech">
-                        <h1 className="sovtech-question">Why I want to be a developer at SovTech</h1>
-                        <p className="sovtech-answer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi aperiam quis pariatur, inventore voluptatum ipsum odit non sapiente explicabo officiis ad veritatis incidunt temporibus officia nihil rem earum minus atque velit! Incidunt unde aliquid autem eligendi eveniet corrupti. Necessitatibus explicabo odio harum quaerat libero quibusdam omnis facere quam officia dicta.</p>
+                        <h1 className="sovtech-question">Why I want to be a developer at SovTech?</h1>
+                        <p className="sovtech-answer">
+                            I see this opportunity as a way to furthur my skills and be a great employee
+                            at SovTech. I've seen your company featured as one of the best places 
+                            to work on numerous occasions. I've heard about your passion for fostering staff development 
+                            through education, training, and a variety of resources. I'm already aware that engaged staff do better work, as 
+                            seen by your most recent campaign. I'd love to join your innovative and positive team,
+                            continue to do excellent work, and advance within the organization by learning 
+                            new abilities.
+                        </p>
                     </div>
                 </div>
             </div>
