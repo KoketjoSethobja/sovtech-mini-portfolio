@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <div className="home">
+        <div className="home" id="home">
             {/* left col, mobile=top row */}
             <div className="left-col">
                 <div className="pic-div">

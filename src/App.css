@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Nunito', sans-serif;
+    text-decoration: none;
 }
 
 html {
@@ -261,6 +262,82 @@ Contact
     width: 100%;
     color: #eeeeee;
     background-color: #222831;
+    padding: 8rem 10rem;
+}
+.contact-wrap {
+    display: flex;
+    background-color: #393E46;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.contact-wrap .logo {
+    border: 3px solid #00ADB5;
+    color: #00ADB5;
+    font-weight: 800;
+    padding: 0.5rem 1.5rem;
+    font-size: 2rem;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.contact-wrap .logo:hover {
+    color: #222831;
+    background-color: #00ADB5;    
+}
+.contact-wrap .about-contact {
+    font-size: 2rem;
+    text-align: center;
+}
+.contact-wrap .social-links {
+    padding: 1rem;    
+}
+.contact-wrap .social-links a {
+    padding: 0;
+    margin: 5px;
+}
+.contact-wrap .social-links a svg {
+    margin: 0 1rem;
+    fill: #222831;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    padding: 0.5rem;
+    transition: all 0.3s ease-in-out;
+}
+.contact-wrap .social-links a .facebook:hover {
+    fill: #fff;
+    background-color: #4267B2;
+    
+}
+.contact-wrap .social-links a .instagram:hover {
+    fill: #fff;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+}
+.contact-wrap .social-links a .twitter:hover {
+    fill: #fff;
+    background-color: #1DA1F2;
+}
+.contact-wrap .social-links a .linkedin:hover {
+    fill: #fff;
+    background-color: #0077b5;
+}
+.contact-wrap .social-links a .whatsapp:hover {
+    fill: #fff;
+    background-color: #075E54;
+}
+.contact-wrap .social-links a .github:hover {
+    fill: #fff;
+    background-color: #171515;
+}
+.contact-wrap .creator {
+    font-size: 1.4rem;
+}
+.contact-wrap .creator span {
+    color: #00ADB5
 }
 @media (max-width: 480px) {
     .home {
@@ -302,6 +379,9 @@ Contact
         font-size: 1rem;
         text-align: center;
     }
+    .portfolio {
+        height: auto;
+    }
     .projects {
         flex-direction: column;
         padding: 1rem 2rem;
@@ -309,13 +389,48 @@ Contact
     }
     .projects .project-one {
         width: 100%;
-        height: auto;
+        height: 50%;
         margin-bottom: 5px;
     }
     .projects .project-two {
         width: 100%;
-        height: auto;
+        height: 50%;
         margin-top: 5px;
+    }
+    .contact {        
+        height: auto;
+        padding: 1rem 2rem;
+    } 
+    .contact-wrap .logo {
+        margin: 3rem 0;
+    }
+    .contact-wrap .about-contact {
+        font-size: 2rem;
+        text-align: center;
+        margin: 0 0 2rem 0;
+    }
+    .contact-wrap .social-links {
+        display: flex;
+        width: 100%;  
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0 0 2rem 0;
+        height: 6rem;
+
+    }
+    .contact-wrap .social-links a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;        
+    }
+    .contact-wrap .social-links a svg{
+        width: 100%;   
+        height: 100%;
+    }
+    .contact-wrap .creator {
+        margin-bottom: 2rem;
     }
 }
 
@@ -373,5 +488,40 @@ Contact
         width: 100%;
         height: auto;
         margin-top: 5px;
+    }
+    .contact {        
+        height: auto;
+        padding: 1rem 2rem;
+    } 
+    .contact-wrap .logo {
+        margin: 3rem 0;
+    }
+    .contact-wrap .about-contact {
+        font-size: 2rem;
+        text-align: center;
+        margin: 0 0 2rem 0;
+    }
+    .contact-wrap .social-links {
+        display: flex;
+        width: 100%;  
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0 0 2rem 0;
+        height: 6rem;
+
+    }
+    .contact-wrap .social-links a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;        
+    }
+    .contact-wrap .social-links a svg{
+        width: 100%;   
+        height: 100%;
+    }
+    .contact-wrap .creator {
+        margin-bottom: 2rem;
     }
 }
