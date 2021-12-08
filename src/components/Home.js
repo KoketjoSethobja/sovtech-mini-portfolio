@@ -27,7 +27,7 @@ const Home = () => {
                     <div className="why-sovtech">
                         <h1 className="sovtech-question">Why I want to be a developer at SovTech?</h1>
                         <p className="sovtech-answer">
-                            I see this opportunity as a way to furthur my skills and be a great employee
+                            I see this opportunity as a way to further my skills and be a great employee
                             at SovTech. I've seen your company featured as one of the best places 
                             to work on numerous occasions. I've heard about your passion for fostering staff development 
                             through education, training, and a variety of resources. I'm already aware that engaged staff do better work. I'd love to join your innovative and positive team,
