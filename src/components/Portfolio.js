@@ -22,7 +22,7 @@ const Portfolio = () => {
                     <p className="languages">React Js / Node Js / MySQL</p>
                     <p className="description">
                         A photo album website where users can register and upload, 
-                        view, update, and delete their photos. Registerd users can also share their 
+                        view, update, and delete their photos. Registered users can also share their 
                         photos. (part of school project)
                     </p>
                     <div className="links">
