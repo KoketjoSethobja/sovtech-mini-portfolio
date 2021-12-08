@@ -15,7 +15,7 @@ const Portfolio = () => {
                         Rewards currency, Discovery Miles. Members can view, add, and
                         subtract Discovery Miles linked to their account. (part of school project)
                     </p>
-                    <a className="repo-link" href="https://github.com/KoketjoSethobja/AccountSystem" >View On Github</a>
+                    <a className="repo-link" href="https://github.com/KoketjoSethobja/AccountSystem" target="_blank" rel="noopener noreferrer">View On Github</a>
                 </div>
                 <div className="project-two">
                     <h1>Photo Album Project</h1>
