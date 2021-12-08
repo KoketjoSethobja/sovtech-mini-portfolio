@@ -14,14 +14,14 @@ const Home = () => {
                 <div className="ryt-content">
                     <div className="intro-me">
                         <h1 className="hello-text">Hello</h1>
-                        <p className="aboutme-text">I am Koketjo Sethobja and I am an aspiring Software Developer. 
+                        <p className="aboutme-text">I am Koketjo Sethobja and an aspiring Software Developer. 
                             I am a final year student at the North-West University and studying towards
                             my undergraduate degree in Information Technology (BSc IT). 
                             I have worked part-time as a Studant Assistant at the North-West University. 
                             I have worked on a few projects (deployed and not deployed) throughout my degree
-                            to further my skills in the field of Software Development. I have gained as much knowledge from
+                            to further my skills in the field of Software Development. I have gained as much knowledge
                             as I can in the field of Software Development and I would like to know more. I have worked with React Js,
-                            ASP.NET, Node Js and Express Js, HTML&CSS, JavaScript, Java, Oracle SQL, and MySQL.
+                            ASP.NET, Node Js and Express Js, HTML & CSS, JavaScript, Java, Oracle SQL, and MySQL.
                         </p>
                     </div>
                     <div className="why-sovtech">
@@ -30,8 +30,7 @@ const Home = () => {
                             I see this opportunity as a way to furthur my skills and be a great employee
                             at SovTech. I've seen your company featured as one of the best places 
                             to work on numerous occasions. I've heard about your passion for fostering staff development 
-                            through education, training, and a variety of resources. I'm already aware that engaged staff do better work, as 
-                            seen by your most recent campaign. I'd love to join your innovative and positive team,
+                            through education, training, and a variety of resources. I'm already aware that engaged staff do better work. I'd love to join your innovative and positive team,
                             continue to do excellent work, and advance within the organization by learning 
                             new abilities.
                         </p>
